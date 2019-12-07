@@ -1,0 +1,57 @@
+package parameters;
+
+public class likingPhotos {
+//public int likePhotos(int currentLikes, String comment, boolean like){
+//	System.out.println("Feedback: " + comment);
+//	if(like){
+//		currentLikes = currentLikes + 1;
+//	}
+//
+//	System.out.println("Number of likes:" + currentLikes);
+//	return currentLikes;
+//	}	public static void main(String[] args){
+//		
+//		
+//		System.out.println(new likingPhotos().likePhotos(0, "Nice color", true));
+//		
+//}
+	
+	public String adminssing(double height){
+		String passText;
+		if(height > 120){
+			passText = "You pass the height requirements";
+			
+		}else{ 
+			passText = "Sorry, you do not pass";
+				
+		
+		}return passText;
+	}
+        public static void main(String[] args){
+        	System.out.println(new likingPhotos().adminssing(139));
+        }
+		
+		
+	}
+	
+	
+
+	
+		
+	
+
+
+
+
+
+
+public class making {
+public double makingChange(double itemCost, double dollarsProvided){
+	double change =  dollarsProvided - itemCost;
+	return change; 
+	
+}
+
+public static void main(String[] args){
+	System.out.println(new making().makingChange(3.60, 5.75));
+}
