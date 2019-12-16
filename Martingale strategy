@@ -1,0 +1,35 @@
+package one;
+
+public class oneJava {
+public static void main(String[] args){
+	
+		int money = 1000;
+		int target = 1200;
+		int bet = 10;
+		while(money>bet){
+			boolean win = false;
+			if(win){
+				int total = money += bet;
+				
+				bet=10;
+				System.out.println("You WIN!" + total);
+			}else{
+				int total = money-=bet;
+				bet*=2;
+				System.out.println("You LOSE" + total);
+			}
+			if(money >= target){
+				break;
+			}
+			
+		}
+		
+}
+}
+
+
+
+	  
+
+
+
