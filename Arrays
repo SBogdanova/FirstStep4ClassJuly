@@ -1,0 +1,6 @@
+public static void main(String[] args){
+	String newsOutlet[] = {"BTV","Nova","BNT","CNN","ABC","BBC", "FOX", "SKY", "CBS"};
+	System.out.println(newsOutlet[1]);
+	System.out.println(newsOutlet[3]);
+	System.out.println(newsOutlet[8]);
+}
